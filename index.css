@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    max-width: 20%;
+    background-color: rgba(255, 3, 3, 0.788);
+    position: fixed;
+    height: 100%;
+}
+
+.menuheading h1 {
+    padding: 160px 89px 62px 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menulinks {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 40px 10px 40px;
+}
+
+.menulinks a {
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 15px 0 10px 14px;
+}
+
+.menulinks a:hover {
+    color: black;
+    background-color: white;
+}
+
+.content {
+    margin-left: 20%;
+}
+
+.contentheading {
+    padding: 140px 10px 20px 55px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.first-content-heading, .second-content-heading {
+    color: red;
+    padding: 15px 10px 20px 55px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 7px solid red;
+    height: 15.5px;
+    width: 74px;
+    border-radius: 30px;
+    margin-left: 55px;
+}
+
+.first-content-images {
+    padding: 55px;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    max-width: 47%;
+    height: auto;
+    margin: 10px 25px 25px 0px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.images img:hover {
+    opacity: 1;
+}
+
+.second-content-para, .third-content-para, .forth-content-para {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px 150px 20px 55px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.third-card {
+    padding: 10px 10px 10px 55px;
+}
+
+.third-card strong {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.card {
+    padding: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.card1 {
+    background-color: lightgray;
+    width: 35%;
+    margin: 14px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.card h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 0 0px 10px;
+    font-size: 2rem;
+}
+
+.card h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 0 0px 10px;
+    color: grey;
+}
+
+.card p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 0 20px 10px;
+    font-size: 1.13rem;
+}
+
+.more-cards {
+    display: flex;
+}
+
+.first-card {
+    background-color: lightgrey;
+    width: 100%;
+    margin: 20px;
+}
+
+.first-card h1 {
+    background-color: rgb(138, 138, 138);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 24px 0 24px 0;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.first-card p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+.first-card button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    width: 28%;
+    margin: 20px auto 20px auto;
+    display: block;
+    padding: 13px;
+    font-size: 22px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.first-card button:hover {
+    background: black;
+    color: white;
+}
+
+.second-card {
+    background-color: lightgrey;
+    width: 100%;
+    margin: 20px;
+}
+
+.second-card h1 {
+    background-color: rgba(255, 3, 3, 0.788);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 24px 0 24px 0;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.second-card p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+.second-card button {
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    width: 28%;
+    margin: 20px auto 20px auto;
+    display: block;
+    padding: 13px;
+    font-size: 22px;
+    background: rgba(255, 3, 3, 0.788);
+    color: white;
+    border: none;
+}
+
+.second-card button:hover {
+    background: black;
+    color: white;
+}
